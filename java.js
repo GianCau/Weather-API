@@ -13,21 +13,23 @@ $(document).ready(function(){
   var weather;
   //end variables ----------------------------------------
   
-  
+  //geolocation
    if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
-
+  
+            
+  //create url 
     lat = position.coords.latitude.toFixed(2);
     lon = position.coords.longitude.toFixed(2);
     api = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat +  "&lon=" + lon + "&units=metric" + "&APPID=7f99b308303e52a6de6347b9c6a8661c";  
       
     
      
-       
+      
                     
     $.getJSON(api, function(data){  
             
-            //current city
+            //name of current city
             $(".city").html(data.name);
             
             
