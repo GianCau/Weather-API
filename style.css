@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+html {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background: #313131 ;
+        
+}
+html .device {
+  width: 354px;
+  height: 718px;
+  background: #4771D9;
+  border-radius: 60px;
+  border: 12px solid black;
+  top: 50%;
+  right: 50%;
+  position: absolute;
+  margin: -359px -177px;
+  
+  
+
+        
+/*external shadow*/
+        
+-webkit-box-shadow: 0px 9px 14px 0px rgba(50, 50, 50, 0.92);
+-moz-box-shadow:    0px 9px 14px 0px rgba(50, 50, 50, 0.92);
+box-shadow:         0px 9px 14px 0px rgba(50, 50, 50, 0.92);
+
+}
+html .device .noc {
+  height: 20px;
+  width: 180px;
+  background: black;
+  border-radius: 0 0 20px 20px;
+  margin: 0 auto;
+
+  -moz-box-shadow:    1px 1px 2px 3px #000;
+  -webkit-box-shadow: 1px 1px 2px 3px #000;
+  box-shadow:         1px 1px 2px 3px #000;
+ 
+}
+
+
+/*coutry and city section*/
+
+.place{
+
+        width: 100%;
+        height: 150px;
+        margin-top: 50px;
+        color: white;
+}
+
+
+
+.city{
+        font-size: 40px;
+        margin: 0 auto;
+        padding-top: 50px;  
+        color: white;
+}
+
+
+
+/*temp-icon section*/
+
+.ali-t{
+        
+        width: 100%;
+        height: 250px;
+        flex-wrap: wrap;
+        flex-direction: row ;
+        position: relative;
+}
+.temp{
+        font-size: 120px;
+        color: white;
+        
+}
+.sym{
+        font-size: 70px;
+        position: absolute;
+        color:white;
+        top:115px;
+        right: 30px;
+}
+
+.wi{
+        color: white;
+}
+
+
+.icon{
+        align-self:  center;
+}
+
+/*button section*/
+
+.bot{
+        position: relative;
+        background: white;
+        display: block;
+        height: 50px;
+        width: 120px;
+        border-radius: 25px;
+        margin: 0 auto;
+        box-shadow: 0 6px #1e4094;
+}
+
+.bot:hover{
+        cursor: pointer;
+        box-shadow: 0 4px #1e4094;
+	    top: 2px;
+        
+}
+
+.btn:active {
+	box-shadow: 0 0 #1e4094;
+	top: 6px;
+}
+
+
+.press{
+        position: relative;
+        top: 4px;
+       font-weight: bold;
+}
